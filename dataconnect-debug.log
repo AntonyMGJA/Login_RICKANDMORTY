@@ -1,0 +1,14 @@
+I1008 13:05:59.258772   11704 load.go:37] Reloading schema and connectors...
+I1008 13:05:59.281913   11704 control.go:45] [engine.Service /emulator/StickerSmash b8cb] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1008 13:05:59.286462   11704 control.go:73] [engine.Service /emulator/StickerSmash b8cb] UpdateConnector(default): done sources: connector\mutations.gql [1163B] connector\queries.gql [1855B] 
+I1008 13:05:59.306395   11704 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "C:\\Users\\Equipo\\Documents\\apps\\StickerSmash\\dataconnect\\connector\\dataconnect-generated\\js\\default-connector"
+I1008 13:05:59.310620   11704 collector.go:107] schema extensions wrote into "C:\\Users\\Equipo\\Documents\\apps\\StickerSmash\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [60423B] 
+I1008 13:05:59.314940   11704 collector.go:107] connector "default" javascriptSdk wrote into "C:\\Users\\Equipo\\Documents\\apps\\StickerSmash\\dataconnect\\connector\\dataconnect-generated\\js\\default-connector"
+Generated sources: index.d.ts [264B] esm\index.esm.js [185B] esm\package.json [17B] index.cjs.js [226B] package.json [623B] 
+I1008 13:05:59.314940   11704 installsdk.go:128] generate.javascriptSdk.packageJsonDir is not specified, skipping automatic installation of JS package
+I1008 13:05:59.314940   11704 load.go:105] Finished reloading
+I1008 13:05:59.316536   11704 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I1008 13:05:59.316536   11704 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I1008 13:06:00.865394   11704 control.go:45] [engine.Service /emulator/StickerSmash 9fd1] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1008 13:06:00.865394   11704 control.go:73] [engine.Service /emulator/StickerSmash 9fd1] UpdateConnector(default): done sources: connector\queries.gql [1855B] connector\mutations.gql [1163B] 
